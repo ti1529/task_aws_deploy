@@ -62,3 +62,5 @@ gem "capistrano-rails", "~> 1.6", require: false # 追記
 gem 'capistrano-safe-deploy-to' # 追記
 
 gem 'unicorn'  
+gem 'aws-sdk-s3', require: false
+gem 'dotenv-rails'
